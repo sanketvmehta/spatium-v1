@@ -3,8 +3,6 @@ spatium
 
 Spatial Co-location Pattern Mining using Graph Database
 
-Spatium is the codebase for our [B.Tech Final Year Project](https://arxiv.org/abs/1810.09007) at [Indian Institue of Technology, Roorkee](http://www.iitr.ac.in/).
-
 
 Spatial co-location pattern mining refers to the task of discovering the group of objects or events that co-occur at many places. Extracting these patterns from spatial data is very difficult due to the complexity of spatial data types, spatial relationships, and spatial auto-correlation. We model the co-location pattern discovery as a clique enumeration problem over a neighborhood graph (which is materialized using a distributed graph database). Further, we propose three new traversal based algorithms, namely `CliqueEnumG`, `CliqueEnumK` and `CliqueExtend`. These algorithms allow for a trade-off between time and memory requirements and support interactive data analysis without having to recompute all the intermediate results.
 
